@@ -12,25 +12,30 @@
         <h1>Conversor de moeda</h1>
     </header>
     <main>
-        <div class="moeda1">
-            <input type="text" name="moeda1" id="moeda1">
-            <select name="moeda1" id="moeda1">
+        <p>Insira o valor</p>
+        <input type="text" name="moeda1" id="moeda1">
+        
+        <div class="moeda1">   
+            <p>Cambio de origem</p>         
+            <select name="type_moeda1" id="type_moeda1">
                 <option value="">EUR</option>
                 <option value="">USD</option>
                 <option value="">BRL</option>
             </select>
         </div>
-        <div class="moeda2">
-            <input type="text" name="moeda2" id="moeda2">
-            <select name="moeda2" id="moeda2">
+        
+        <div class="moeda2">  
+            <p>Cambio de destino</p>          
+            <select name="type_moeda2" id="type_moeda2">
                 <option value="">EUR</option>
                 <option value="">USD</option>
                 <option value="">BRL</option>
             </select>
         </div>
         <div class="button">
-            <input type="button" value="Converter">
+            <input type="button" value="Converter" onclick="converter()">
         </div>
+        <p>Resultado:</p>
     </main>
     <footer>
         <p>Desenvolvido por João Victor</p>
