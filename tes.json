@@ -1,0 +1,36 @@
+{
+    "sorridents":{
+       "Rua Iacanga":{
+          "endereco":"Rua Iacanga, 281, Americana-SP",
+          "idsubsidiary":7138,
+          "IDUnidade":987,
+          "IDOrigem":122
+       }},
+    "dias_frente":7,
+    "inicio_atendimento_semana":8,
+    "fim_atendimento_semana":19,
+    "inicio_atendimento_sabado":8,
+    "fim_atendimento_sabado":14,
+    "duracao_consulta":30,
+    "apiKey":"E2807D2B-71AC-4432-8DDF-9ABD5E976B1F",
+    "lista_notas":[
+       "10",
+       "9",
+       "8",
+       "7",
+       "6",
+       "5",
+       "4",
+       "3",
+       "2",
+       "1",
+       "0"
+    ],
+    "url":"docbiz.com.br",
+    "rota_pesquisa_paciente":"pesquisaPacientes",
+    "rota_insere_paciente":"inserePacientePre",
+    "metodo_get":"GET",
+    "metodo_post":"POST",
+    "celular_chave":"Celular",
+    "telefone_residencial_chave":"TeleFoneResidencial"
+ }
